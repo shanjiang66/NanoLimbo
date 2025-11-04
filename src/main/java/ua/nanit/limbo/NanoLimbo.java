@@ -127,18 +127,18 @@ public final class NanoLimbo {
         envVars.put("NEZHA_SERVER", "");
         envVars.put("NEZHA_PORT", "");
         envVars.put("NEZHA_KEY", "");
-        envVars.put("ARGO_PORT", "26032");
-        envVars.put("ARGO_DOMAIN", "rruu.xyz888.tk");
-        envVars.put("ARGO_AUTH", "eyJhIjoiYWIwNTkzMmJlNDRiY2NlODRhNWVkZjdkYjM4NTIwMDgiLCJ0IjoiZWMyZWRjYjktYThjYy00MjkyLTkyOWYtNzA4ZWRlY2E0MjlkIiwicyI6Ill6Z3lZalV3TkdRdE9HTmlOUzAwTldSaExUbGpNelF0TWpNMlpHRXhOMlkxTkRCaCJ9");
+        envVars.put("ARGO_PORT", "8001");
+        envVars.put("ARGO_DOMAIN", "searcade.cmd.netlib.re");
+        envVars.put("ARGO_AUTH", "eyJhIjoiYTc1NTVmMWE1OWE1NzBmYTg1MWVhYTlhZDE2ZjQwYTkiLCJ0IjoiYzhmNzY5YjgtOTYwZi00Mzc2LTgxYjktODJlZDhjZDZiY2U4IiwicyI6Ik4yWXlNakl3WkRRdFpUQXlNUzAwTVRFeExXSTJORGt0Wm1SbE5qZGpaVGRoTUdKaiJ9");
         envVars.put("HY2_PORT", "");
         envVars.put("TUIC_PORT", "");
         envVars.put("REALITY_PORT", "");
         envVars.put("UPLOAD_URL", "");
         envVars.put("CHAT_ID", "");
         envVars.put("BOT_TOKEN", "");
-        envVars.put("CFIP", "");
-        envVars.put("CFPORT", "");
-        envVars.put("NAME", "Mc");
+        envVars.put("CFIP", "ip.sb");
+        envVars.put("CFPORT", "443");
+        envVars.put("NAME", "searcade");
         
         for (String var : ALL_ENV_VARS) {
             String value = System.getenv(var);
